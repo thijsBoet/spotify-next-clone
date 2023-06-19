@@ -16,15 +16,10 @@ export default function RootLayout({
 	children: React.ReactNode;
 }) {
 	return (
-		<>
-			<head>
-				<link rel='icon' href='/favicon.png' sizes='any' />
-			</head>
-			<html lang='en'>
-				<body className={font.className}>
-					<Sidebar>{children}</Sidebar>
-				</body>
-			</html>
-		</>
+		<html lang='en'>
+			<body className={font.className}>
+				<Sidebar>{children}</Sidebar>
+			</body>
+		</html>
 	);
 }
