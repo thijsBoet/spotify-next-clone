@@ -15,6 +15,7 @@ export default function Home() {
 						image='/images/liked.png'
 						name='Liked Songs'
 						href='liked'
+						height='64px'
 					/>
 				</div>
 			</Header>
